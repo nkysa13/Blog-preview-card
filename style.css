@@ -3,7 +3,7 @@
 
 
 body{
-    min-width: 100vh;
+    
     min-height: 100vh;
     background-color: hsl(47, 88%, 63%);
     display: grid;
@@ -62,9 +62,11 @@ img.auther{
     padding: 0;
     padding-right:0.5rem ;
 }
-@media (max-width : 625px) and (max-width:4.5in){
-    
+@media (max-width:4.5in){
+    body{
+        padding: 0;
+    }
     .main{
-        width: 100%;
+        width: 75%;
     }
 }
