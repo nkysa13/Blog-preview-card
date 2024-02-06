@@ -62,3 +62,11 @@ img.auther{
     padding: 0;
     padding-right:0.5rem ;
 }
+@media screen and  (max-width : 625px) and (max-width:4.5in){
+    *,body{
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+    }
+}
