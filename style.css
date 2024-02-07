@@ -89,12 +89,12 @@ img {
     border-radius: 0.5rem;
 }
 
-/* @media (max-width:5.5in) {
+@media (max-width:5.5in) {
     body {
         padding: 0;
     }
 
     .main {
-        width: 75%;
+        width: 80%;
     }
-} */
+} 
